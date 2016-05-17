@@ -19,4 +19,7 @@ AC_CHECK_HEADER_STDBOOL
 # Checks for library functions.
 AC_FUNC_MALLOC
 
+AC_CONFIG_FILES(./Makefile
+          ./src/Makefile)
+
 AC_OUTPUT
