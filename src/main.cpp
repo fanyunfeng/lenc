@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <malloc.h>
 
-#include "encoder.h"
 #include "app.h"
+#include "encoder.h"
 
 int parseArgs(Context* ctx, int argc, char** argv){
     return 0;
@@ -84,7 +84,7 @@ exit:
 
 int main(int argc, char** argv){
 
-    ctx = new Context();
+    Context* ctx = new Context();
 
     if(parseArgs(ctx, argc, argv)){
         return 1;

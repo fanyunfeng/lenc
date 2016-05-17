@@ -5,7 +5,7 @@
 class Encoder;
 class Context{
 public:
-    int maxLineSize;
+    size_t maxLineSize;
     Encoder* chain;
 
     Context(){
